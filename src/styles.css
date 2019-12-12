@@ -1,0 +1,46 @@
+body {
+  /* background-color: #f23;*/
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  color: red;
+  background-color: gray;
+}
+.item {
+  flex-grow: 1;
+  width: 2px;
+  font-size: 1.5em;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+}
+.header {
+  flex-basis: 800px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: darkblue;
+}
+.nav {
+  background-color: darkblue;
+}
+.section {
+  flex-direction: column;
+  flex-basis: 200px;
+  background-color: green;
+}
+.aside {
+  flex-grow: 1;
+  background-color: darkblue;
+}
+.footer {
+  width: 500px;
+  flex-direction: row;
+  background-color: darkblue;
+}
+.inside {
+  width: 300px;
+  background-color: lightblue;
+}
